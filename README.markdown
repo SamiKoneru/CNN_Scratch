@@ -12,4 +12,5 @@ This folder contains a collection of files composing the structure of a simple c
 - `activations` - folder for activation functions (ReLU, softmax).
 - `Network.py` - class for creating, structuring, training, and testing the network.
 - `mnist.npz` - data file.
+- `testing.ipynb` - personal testing notebook, very messy.
 - `README.markdown` — this overview.
