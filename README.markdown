@@ -8,9 +8,8 @@ This folder contains a collection of files composing the structure of a simple c
 - Common scientific stack (see the imports inside the notebook, e.g., `numpy`, `matplotlib`)
 
 ## Project structure
-- `conv_layer.ipynb` — step-by-step notebook for the CNN-from-scratch exercise.
+- `layers` — folder for all neural network layer classes (convolution, pooling, dense, flatten).
+- `activations` - folder for activation functions (ReLU, softmax).
+- `Network.py` - class for creating, structuring, training, and testing the network.
+- `mnist.npz` - data file.
 - `README.markdown` — this overview.
-
-## Notes
-- If you experiment with changes, consider duplicating the notebook to keep an untouched version.
-- For reproducibility, capture the exact package versions you use (e.g., `pip freeze > requirements.txt`).
